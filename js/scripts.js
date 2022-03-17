@@ -103,10 +103,17 @@
 
 // console.log(nome[0] + nome[10]);
 
-var temperatura = 35;
-console.log(temperatura);
+// var temperatura = 35;
+// console.log(temperatura);
 
-temperatura = null;
-console.log(temperatura);
+// temperatura = null;
+// console.log(temperatura);
 
-console.log(typeof temperatura === "undefined");
+// console.log(typeof temperatura === "undefined");
+
+
+
+//----------------------------------------------------------------------------------------------
+
+
+
