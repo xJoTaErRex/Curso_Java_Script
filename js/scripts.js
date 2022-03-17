@@ -18,7 +18,7 @@
 //----------------------------------------------------------------------------------------------
 
 
-//Aula 4
+//Aula 4 - String
 
 // var nome = "João";
 // var sobrenome = "Gomes";
@@ -77,4 +77,36 @@
 // idade++;
 // console.log(idade);
 
+//----------------------------------------------------------------------------------------------
 
+// // Aula 6 - Boolean
+// var idade = 65
+// var teste = 59 == idade;
+
+// console.log(teste);
+
+// var vtype = true;
+// console.log(typeof vtype);
+// console.log(typeof vtype == "boolean");
+
+
+
+//----------------------------------------------------------------------------------------------
+
+// // Aula 7 - Boolean
+
+// var undf;
+
+// console.log(undf);
+
+// var nome = "Pedro"
+
+// console.log(nome[0] + nome[10]);
+
+var temperatura = 35;
+console.log(temperatura);
+
+temperatura = null;
+console.log(temperatura);
+
+console.log(typeof temperatura === "undefined");
