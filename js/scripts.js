@@ -115,5 +115,10 @@
 
 //----------------------------------------------------------------------------------------------
 
+// // Aula 10 - Boolean
 
+var conteudo_caixa_azul = document.getElementById("caixa_azul").innerHTML;
 
+document.getElementById("caixa_azul").innerHTML = "<H1>" + conteudo_caixa_azul + "<H1>";
+
+document.getElementById("caixa_amarela").innerHTML = conteudo_caixa_azul;
