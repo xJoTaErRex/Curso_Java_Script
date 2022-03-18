@@ -160,7 +160,7 @@ function valor_imc(p, a) {
     return resultado;
 }
 
-var peso = document.getElementById("peso").innerHTML
-var altura = document.getElementById("altura").innerHTML
+var peso = parseInt(document.getElementById("peso").innerHTML);
+var altura = parseFloat(document.getElementById("altura").innerHTML);
 
-document.getElementById("imc").innerHTML = valor_imc(peso, altura);
+document.getElementById("imc").innerHTML = valor_imc(peso, altura).toFixed(2); // Tofixed configura as casas decimais;
