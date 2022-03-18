@@ -117,8 +117,50 @@
 
 // // Aula 10 - Boolean
 
-var conteudo_caixa_azul = document.getElementById("caixa_azul").innerHTML;
+// var conteudo_caixa_azul = document.getElementById("caixa_azul").innerHTML;
 
-document.getElementById("caixa_azul").innerHTML = "<H1>" + conteudo_caixa_azul + "<H1>";
+// document.getElementById("caixa_azul").innerHTML = "<H1>" + conteudo_caixa_azul + "<H1>";
 
-document.getElementById("caixa_amarela").innerHTML = conteudo_caixa_azul;
+// document.getElementById("caixa_amarela").innerHTML = conteudo_caixa_azul;
+
+
+
+//----------------------------------------------------------------------------------------------
+
+
+
+// // Aula 11 - Boolean
+
+function soma_numeros_estatica() {  
+    var a = 10;
+    var b = 15;
+    soma = a+b;
+    console.log(soma)
+}
+
+function soma_numeros(numero1, numeor2) {
+    soma = numero1+numeor2;
+    console.log(soma)
+}
+var n1 = 6
+var n2 = 9
+soma_numeros(n1,n2);
+
+
+function soma_numeros_return(numero1, numeor2) {
+    soma = numero1+numeor2;
+    return soma;
+}
+console.log(soma_numeros_return(6,8));
+
+
+
+function valor_imc(p, a) {
+    resultado = p/ (a * a);
+    return resultado;
+}
+
+var peso = document.getElementById("peso").innerHTML
+var altura = document.getElementById("altura").innerHTML
+
+document.getElementById("imc").innerHTML = valor_imc(peso, altura);
