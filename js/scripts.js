@@ -93,7 +93,7 @@
 
 //----------------------------------------------------------------------------------------------
 
-// // Aula 7 - Boolean
+// // Aula 7 - Null undefined
 
 // var undf;
 
@@ -115,7 +115,7 @@
 
 //----------------------------------------------------------------------------------------------
 
-// // Aula 10 - Boolean
+// // Aula 11 - DOM
 
 // var conteudo_caixa_azul = document.getElementById("caixa_azul").innerHTML;
 
@@ -129,38 +129,142 @@
 
 
 
-// // Aula 11 - Boolean
+// // Aula 12 - Funções
 
-function soma_numeros_estatica() {  
-    var a = 10;
-    var b = 15;
-    soma = a+b;
-    console.log(soma)
+// function soma_numeros_estatica() {  
+//     var a = 10;
+//     var b = 15;
+//     soma = a+b;
+//     console.log(soma)
+// }
+
+// function soma_numeros(numero1, numeor2) {
+//     soma = numero1+numeor2;
+//     console.log(soma)
+// }
+// var n1 = 6
+// var n2 = 9
+// soma_numeros(n1,n2);
+
+
+// function soma_numeros_return(numero1, numeor2) {
+//     soma = numero1+numeor2;
+//     return soma;
+// }
+// console.log(soma_numeros_return(6,8));
+
+
+// function valor_imc(p, a) {
+//     resultado = p/ (a * a);
+//     return resultado;
+// }
+
+
+// var peso = parseInt(document.getElementById("peso").innerHTML);
+// var altura = parseFloat(document.getElementById("altura").innerHTML);
+
+
+// document.getElementById("imc").innerHTML = valor_imc(peso, altura).toFixed(2); // Tofixed configura as casas decimais;
+
+
+//----------------------------------------------------------------------------------------------
+
+
+// // Aula 13 - Arrays
+
+// var alunos = ["João", "Maria", "José"];
+
+// var num_primos = [2, 3, 5, 7, 11, 13];
+
+// console.log(alunos.length);
+// console.log(num_primos[2]);
+// console.log(num_primos[10]);
+
+
+// var grupos =[
+//     ["João", "Maria", "José"],
+//     ["Pedro", "Joana", "André", "Julio"],
+//     ["Carolina", "Helena", "Marcelo"]
+// ] 
+// console.log(grupos.length);
+// console.log(grupos [2]);
+// console.log(grupos [2][1]);
+
+
+// var cursos = ["HTML", "Python", "PHP"];
+
+// cursos.push("JavaScript"); 
+// console.log(cursos);
+
+// cursos.unshift("Bootstrap");
+// console.log(cursos);
+
+// cursos.pop();
+// console.log(cursos);
+
+// cursos.shift();
+// console.log(cursos);
+
+// var ingredientes = ["pão branco", "queijo", "presunto"];
+// ingredientes[0] = "pão integral";
+
+// ingredientes[3] = "maionese";
+
+// alunos = ["Pedro", "Joana", "André", "Julio", "Maria", "Fernanda"];
+
+// console.log(alunos.slice(1,5)); //pegar parte de array
+
+// console.log(alunos.slice(0,-1));
+
+
+
+//----------------------------------------------------------------------------------------------
+
+// // Aula 14 - Objetos
+
+var funcionario = {
+    'nome' : 'Pedro Souza Gomes',
+    'ano_nasc' : '1972',
+    'cpf' : '111.111.111.11',
+    'cargo' : 'Analista de Sistemas'
 }
 
-function soma_numeros(numero1, numeor2) {
-    soma = numero1+numeor2;
-    console.log(soma)
-}
-var n1 = 6
-var n2 = 9
-soma_numeros(n1,n2);
+console.log(funcionario['nome']);
+console.log(funcionario.ano_nasc);
+
+funcionario.cargo = "Gerente de T.I";
+
+funcionario.cnh = "86969596";
+
+console.log(funcionario);
 
 
-function soma_numeros_return(numero1, numeor2) {
-    soma = numero1+numeor2;
-    return soma;
-}
-console.log(soma_numeros_return(6,8));
+var cursos = [
+    {
+        'titulo': 'Aprenda programação em Python 3 com facilidade do zero',
+        'avaliacoes': 680,
+        'alunos': 2300,
+        'categorias': ['programacao', 'tecnologia']
+    },
 
+    {
+        'titulo': 'Aprenda PHP e faça sites dinâmicos',
+        'avaliacoes': 180,
+        'alunos': 350,
+        'categorias': ['desenvolvimento web', 'programacao']
+    },
 
+    {
+        'titulo': 'Excel do Zero ao Avançado',
+        'avaliacoes': 420,
+        'alunos': 1800,
+        'categorias': ['produtividade', 'gestão']
+    }
+    
+];
 
-function valor_imc(p, a) {
-    resultado = p/ (a * a);
-    return resultado;
-}
+console.log(cursos[1].categorias[0]);
 
-var peso = parseInt(document.getElementById("peso").innerHTML);
-var altura = parseFloat(document.getElementById("altura").innerHTML);
+cursos[2].categorias[1] = 'administração de empresas';
 
-document.getElementById("imc").innerHTML = valor_imc(peso, altura).toFixed(2); // Tofixed configura as casas decimais;
+console.log(cursos[2].categorias[1]);
