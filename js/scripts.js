@@ -6,6 +6,8 @@
 //mesagem no console do navegador
 //console.log('teste de console');
 
+
+
 //----------------------------------------------------------------------------------------------
 
 
@@ -14,6 +16,9 @@
 // var latitude = 40.87663;
 // var longitude = -8.0873;
 // console.log(latitude, longitude);
+
+
+
 
 //----------------------------------------------------------------------------------------------
 
@@ -33,6 +38,9 @@
 //  console.log ('Primeira letra do nome: ' + nome[0]);
 //  console.log ('Ultima letra do nome: ' + nome[3]);
 //  console.log ('Tamanho telefone: ' + telefone.length);
+
+
+
 
 
 //----------------------------------------------------------------------------------------------
@@ -77,6 +85,10 @@
 // idade++;
 // console.log(idade);
 
+
+
+
+
 //----------------------------------------------------------------------------------------------
 
 // // Aula 6 - Boolean
@@ -88,6 +100,8 @@
 // var vtype = true;
 // console.log(typeof vtype);
 // console.log(typeof vtype == "boolean");
+
+
 
 
 
@@ -113,6 +127,9 @@
 
 
 
+
+
+
 //----------------------------------------------------------------------------------------------
 
 // // Aula 11 - DOM
@@ -125,8 +142,9 @@
 
 
 
-//----------------------------------------------------------------------------------------------
 
+
+//----------------------------------------------------------------------------------------------
 
 
 // // Aula 12 - Funções
@@ -167,8 +185,11 @@
 // document.getElementById("imc").innerHTML = valor_imc(peso, altura).toFixed(2); // Tofixed configura as casas decimais;
 
 
-//----------------------------------------------------------------------------------------------
 
+
+
+
+//----------------------------------------------------------------------------------------------
 
 // // Aula 13 - Arrays
 
@@ -218,53 +239,84 @@
 
 
 
+
+
 //----------------------------------------------------------------------------------------------
 
 // // Aula 14 - Objetos
 
-var funcionario = {
-    'nome' : 'Pedro Souza Gomes',
-    'ano_nasc' : '1972',
-    'cpf' : '111.111.111.11',
-    'cargo' : 'Analista de Sistemas'
-}
+// var funcionario = {
+//     'nome' : 'Pedro Souza Gomes',
+//     'ano_nasc' : '1972',
+//     'cpf' : '111.111.111.11',
+//     'cargo' : 'Analista de Sistemas'
+// }
 
-console.log(funcionario['nome']);
-console.log(funcionario.ano_nasc);
+// console.log(funcionario['nome']);
+// console.log(funcionario.ano_nasc);
 
-funcionario.cargo = "Gerente de T.I";
+// funcionario.cargo = "Gerente de T.I";
 
-funcionario.cnh = "86969596";
+// funcionario.cnh = "86969596";
 
-console.log(funcionario);
+// console.log(funcionario);
 
 
-var cursos = [
-    {
-        'titulo': 'Aprenda programação em Python 3 com facilidade do zero',
-        'avaliacoes': 680,
-        'alunos': 2300,
-        'categorias': ['programacao', 'tecnologia']
-    },
+// var cursos = [
+//     {
+//         'titulo': 'Aprenda programação em Python 3 com facilidade do zero',
+//         'avaliacoes': 680,
+//         'alunos': 2300,
+//         'categorias': ['programacao', 'tecnologia']
+//     },
 
-    {
-        'titulo': 'Aprenda PHP e faça sites dinâmicos',
-        'avaliacoes': 180,
-        'alunos': 350,
-        'categorias': ['desenvolvimento web', 'programacao']
-    },
+//     {
+//         'titulo': 'Aprenda PHP e faça sites dinâmicos',
+//         'avaliacoes': 180,
+//         'alunos': 350,
+//         'categorias': ['desenvolvimento web', 'programacao']
+//     },
 
-    {
-        'titulo': 'Excel do Zero ao Avançado',
-        'avaliacoes': 420,
-        'alunos': 1800,
-        'categorias': ['produtividade', 'gestão']
-    }
+//     {
+//         'titulo': 'Excel do Zero ao Avançado',
+//         'avaliacoes': 420,
+//         'alunos': 1800,
+//         'categorias': ['produtividade', 'gestão']
+//     }
     
-];
+// ];
 
-console.log(cursos[1].categorias[0]);
+// console.log(cursos[1].categorias[0]);
 
-cursos[2].categorias[1] = 'administração de empresas';
+// cursos[2].categorias[1] = 'administração de empresas';
 
-console.log(cursos[2].categorias[1]);
+// console.log(cursos[2].categorias[1]);
+
+
+
+
+
+//----------------------------------------------------------------------------------------------
+
+// // Aula 15 - Metodo de Objetos
+
+// var aluno = {
+//     'nome': 'Maria',
+//     'sobrenome' : 'Pereira',
+//     'ano_nasc': 1992,
+//     'nome_completo' : function (){
+//         var n_completo = this.nome + " " + this.sobrenome
+//         return n_completo;
+//     },
+//     'idade' : function (){
+//         var idade = new Date().getFullYear() - this.ano_nasc
+//         return idade;
+//     }
+// }
+// console.log(aluno.nome_completo());
+
+// console.log(aluno.idade());
+
+// console.log(typeof(document.getElementById('tudo_obj')));
+
+
