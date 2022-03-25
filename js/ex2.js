@@ -52,7 +52,7 @@ function aval_total (n1,n2,n3,n4,n5){
 
 function media_total (n1,n2,n3,n4,n5){
     var media = ( ( 5 * n5 ) + ( 4 * n4)  + ( 3 * n3)  + ( 2 * n2)  + ( 1 * n1) ) / ( n1+n2+n3+n4+n5 );
-    return media;
+    return media.toFixed(2);
 }
 
 var total_aval = aval_total(curso.n_aval_1_estrela, curso.n_aval_2_estrelas, curso.n_aval_3_estrelas, curso.n_aval_4_estrelas, curso.n_aval_5_estrelas);
@@ -71,7 +71,7 @@ document.getElementById('media_aval').innerHTML = media_aval;
      'nome': 'Junior',
      'sobrenome' : 'Freitas',
      'email' : 'jr13freitas@hotmail.com',
-     'nome_completo' : function nomecompleto(){
+     'nome_completo' : function (){
          var nome_completo = this.nome + " " + this.sobrenome;
          return nome_completo;
      }
@@ -79,20 +79,20 @@ document.getElementById('media_aval').innerHTML = media_aval;
 
  function retorna_tabela (p){
      var stringhtmltabela = '<div class="tableBox">'
-                        +'<table>'
+                                +'<table>'
 
-                            +'<tr>'
-                                +'<th>Nome Completo</th>'
-                                +'<th>Email</th>'
-                            +'</tr>'
-                            +'<tr>'
-                                +'<td>'+ p.nome_completo() +'</td>'
-                                +'<td>'+ p.email +'</td>'
-                            +'</tr>'
-                            
-                        +'</table>'
-                        
-                       +'</div>';
+                                    +'<tr>'
+                                        +'<th>Nome Completo</th>'
+                                        +'<th>Email</th>'
+                                    +'</tr>'
+                                    +'<tr>'
+                                        +'<td>'+ p.nome_completo() +'</td>'
+                                        +'<td>'+ p.email +'</td>'
+                                    +'</tr>'
+                                    
+                                +'</table>'
+                                
+                            +'</div>';
 
     return stringhtmltabela;
  }

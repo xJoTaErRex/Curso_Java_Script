@@ -294,8 +294,6 @@
 
 
 
-
-
 //----------------------------------------------------------------------------------------------
 
 // // Aula 15 - Metodo de Objetos
@@ -320,3 +318,135 @@
 // console.log(typeof(document.getElementById('tudo_obj')));
 
 
+
+
+
+//----------------------------------------------------------------------------------------------
+
+// // Aula 19 - Eventos
+
+// document.getElementById("click-me").onclick = function () {
+//     alert("Você clicou no botão");
+// };
+
+// document.getElementById("hover-me").onmouseover = function () {
+//     alert("Você passou com o cursor no botão");
+// };
+
+// document.getElementById("leave-me").onmouseout = function () {
+//     alert("Você saiu com o cursor do botão");
+// };
+
+
+// document.onkeydown = function () {
+//     alert("Você apertou uma tecla");
+// };
+
+// document.onkeydown = function (evento) { //evento é recebido por parametro ele contem a tecla que foi apertada 
+//     alert('Você apertou a tecla espaço ' + evento.keyCode); //KeyCode informa a tecla que foi apertada 
+// };
+
+// function button_Clicked2 () {
+//     alert("Você clicou no botão function");
+// };
+
+
+
+
+//----------------------------------------------------------------------------------------------
+
+// // Aula 20 - Manipulação do CSS
+
+// document.getElementById("botao_cor").onclick = function (){
+//     this.style['background-color'] = "blue";
+//     document.getElementById("botao_cor").style.transform = "translateX(100PX)";
+// }
+
+//----------------------------------------------------------------------------------------------
+
+
+// Aula 21 - Outros métodos getElement 
+
+// var classe_exemplo = document.getElementsByClassName("exemplo"); // trouxe um vetor de todos os componenentes com a classe exemplo no html
+
+// console.log(classe_exemplo);
+
+// classe_exemplo[1].innerHTML = "teste1";
+
+// classe_exemplo[1].style['background-color'] = "blue";
+
+// var tag_exemplo = document.getElementsByTagName("p");
+
+// tag_exemplo[1].style['background-color'] = "blue"
+
+
+
+
+
+
+//----------------------------------------------------------------------------------------------
+
+
+// Aula 22 - Loops for/in
+
+// var tag_exemplo = document.getElementsByTagName("p");
+
+// for(var a = 0; a < tag_exemplo.length; a++){
+//     tag_exemplo[a].style['background-color'] = "blue"
+// }
+
+
+// var alunos = ['Pedro', 'Maria', 'José', 'João', 'Carlos'];
+
+// for(var b = 0; b < alunos.length; b++){
+//     console.log(alunos[b]);
+// }
+
+// console.log("--------------------------------------");
+
+
+// var carro = {
+//     'Ano' : 2002,
+//     'Modelo' : "Chevrolet Corsa Sedan",
+//     'Clindrada' : "1.0",
+//     'Combustivel' : 'Gasolina'
+// }
+
+// for (const car in carro) {
+//     console.log(car + ':' + carro[car]);
+// }
+
+// var tag_elementos = document.getElementsByClassName("exemplo");
+
+// for(var a = 0; a < tag_elementos.length; a++){
+//     tag_elementos[a].style.color = "blue";
+//     tag_elementos[a].style['font-weight'] = "bold";
+// }
+
+
+
+
+
+//----------------------------------------------------------------------------------------------
+
+// // Aula 23 - Loops While e Do/While
+
+// var count = 0;
+
+// // while (count < 5) {
+// //     console.log(count);
+// //     count++
+// // }
+
+// var tag_elementos = document.getElementsByClassName("exemplo");
+
+// while (count < tag_elementos.length) {
+//     tag_elementos[count].style.color = "blue";
+//     tag_elementos[count].style['font-weight'] = "bold";
+//     count++
+// }
+
+// do {
+//     console.log(count);
+//     count++
+// } while (count < tag_elementos.length);
