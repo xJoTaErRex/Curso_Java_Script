@@ -450,3 +450,46 @@
 //     console.log(count);
 //     count++
 // } while (count < tag_elementos.length);
+
+
+
+//----------------------------------------------------------------------------------------------
+
+// // Aula 24 - If, elseif, else
+
+// var idade = 17;
+
+// if (idade  < 18){
+//     console.log("Menor de Idade");
+// }
+// else if(idade == 18){
+//     console.log("Tem 18 anos");
+// }
+// else {
+//     console.log("Maior de idade");
+// }
+
+var nota = 8;
+var faltas = 5;
+
+// if(nota < 7 || faltas > 4) {
+//     console.log("Aprovado");
+// }
+// else{
+//     console.log("Reprovado");
+// }
+
+// if(nota >= 7 && faltas <= 4) {
+//     console.log("Aprovado");
+// }
+// else{
+//     console.log("Reprovado");
+// }
+
+// var nome = "Ivan"
+
+// if (nome){
+//     console.log("Nome: " + nome);
+// } else {
+//     console.log ("Nome não informado");
+// }
