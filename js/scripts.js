@@ -499,69 +499,69 @@ var faltas = 5;
 
 // // Aula 25 - Alinhamento de Loops e Condicionais (neting);
 
-var socio = false;
-var idade = 17;
+// var socio = false;
+// var idade = 17;
 
-// if (socio == true || idade >= 65){
-//     console.log("O ingresso é gratis")
-// }else{
-//     if (idade < 18){
-//         console.log("Preço a pagar = R$ 6,00");
-//     }
-//     else{
-//         console.log("Preço a pagar = R$ 12,00");
-//     }
-// }
+// // if (socio == true || idade >= 65){
+// //     console.log("O ingresso é gratis")
+// // }else{
+// //     if (idade < 18){
+// //         console.log("Preço a pagar = R$ 6,00");
+// //     }
+// //     else{
+// //         console.log("Preço a pagar = R$ 12,00");
+// //     }
+// // }
 
 
-var funcionarios = [
+// var funcionarios = [
         
-    {
-        'nome': 'Carlos Henrique da Silva',
-        'idade': 45,
-        'filhos': ['Mariana Alves da Silva', 'Fernanda Alves da Silva']
+//     {
+//         'nome': 'Carlos Henrique da Silva',
+//         'idade': 45,
+//         'filhos': ['Mariana Alves da Silva', 'Fernanda Alves da Silva']
         
-    },
+//     },
 
-    {
-        'nome': 'Maria Helena Pereira',
-        'idade': 32,
-        'filhos': ['João Pedro Pereira de Souza']
+//     {
+//         'nome': 'Maria Helena Pereira',
+//         'idade': 32,
+//         'filhos': ['João Pedro Pereira de Souza']
         
-    },
+//     },
 
-    {
-        'nome': 'José Feliciano Maia',
-        'idade': 39,
-        'filhos': ['Felipe Ferreira Maia', 'Fábio Ferreira Maia', 'João Ferreira Maia']
+//     {
+//         'nome': 'José Feliciano Maia',
+//         'idade': 39,
+//         'filhos': ['Felipe Ferreira Maia', 'Fábio Ferreira Maia', 'João Ferreira Maia']
         
-    },
+//     },
 
-    {
-        'nome': 'Blob de Sousa',
-        'idade': 39,
+//     {
+//         'nome': 'Blob de Sousa',
+//         'idade': 39,
     
-    }
+//     }
 
-];
+// ];
 
-var listahtml = document.getElementById('filhos');
+// var listahtml = document.getElementById('filhos');
 
-listahtml.innerHTML = "";
+// listahtml.innerHTML = "";
 
-for(var f = 0;f < funcionarios.length; f++) {
+// for(var f = 0;f < funcionarios.length; f++) {
 
-    if(funcionarios[f].filhos){
+//     if(funcionarios[f].filhos){
 
-        var listf = funcionarios[f].filhos;
+//         var listf = funcionarios[f].filhos;
 
-        for(var fi= 0;fi < listf.length; fi++) {
-            listahtml.innerHTML += "<li>" + listf[fi] + " - filho de: " +  funcionarios[f].nome + "</li>";
-        }
-    }
-    else 
-    {
-        listahtml.innerHTML += "<li>" + funcionarios[f].nome + " não tem filhos </li>"
-    }
-} 
+//         for(var fi= 0;fi < listf.length; fi++) {
+//             listahtml.innerHTML += "<li>" + listf[fi] + " - filho de: " +  funcionarios[f].nome + "</li>";
+//         }
+//     }
+//     else 
+//     {
+//         listahtml.innerHTML += "<li>" + funcionarios[f].nome + " não tem filhos </li>"
+//     }
+// } 
 
