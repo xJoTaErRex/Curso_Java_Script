@@ -667,14 +667,66 @@
 // },3000)
 
 
-var spiner  = document.getElementById("spinner-loader")
+// var spiner  = document.getElementById("spinner-loader")
 
 
-document.getElementById("mostrar-loader").onclick = function() {
-    spiner.style.display = "initial"
-    window.setTimeout(function(){
-        spiner.style.display = "none"
-    },5000)
-}
+// document.getElementById("mostrar-loader").onclick = function() {
+//     spiner.style.display = "initial"
+//     window.setTimeout(function(){
+//         spiner.style.display = "none"
+//     },5000)
+// }
+
+// var count = 0;
+// var inter = window.setInterval(function(){
+//          console.log(count);
+//          count++
+//          if (count > 10){
+//              window.clearInterval(inter);
+//          }
+
+// },1000)
+
+// window.setInterval(function(){
+//     var relogio_brasilia = new Date()
+
+//     function format_time(time){
+//         if(time < 10){
+//             return "0" + time.toString();
+//         }
+//         return time.toString();
+//     }
+    
+//     document.getElementById("relogio").innerHTML = format_time(relogio_brasilia.getHours()) + ":" 
+//                                                    + format_time(relogio_brasilia.getMinutes()) + ":" 
+//                                                    + format_time(relogio_brasilia.getSeconds())
+// },1000)
 
 
+
+//----------------------------------------------------------------------------------------------
+
+// // // Aula 41 - Comando Switch
+
+// function valor_pedagios(tipo) {
+
+//     switch (tipo) {
+//         case '1':
+//             return 11.22
+//             break;
+//         case '2':
+//             return 22.45
+//             break;
+//         case '3':
+//             return 16.88
+//             break;
+//         case '4':
+//             return 33.65
+//             break;
+//         default:
+//             return "Categoria não encontrada"
+//             break;
+//     }
+// }
+
+// console.log(valor_pedagios("4"));
