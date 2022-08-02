@@ -469,8 +469,8 @@
 //     console.log("Maior de idade");
 // }
 
-var nota = 8;
-var faltas = 5;
+//var nota = 8;
+//var faltas = 5;
 
 // if(nota < 7 || faltas > 4) {
 //     console.log("Aprovado");
@@ -564,4 +564,117 @@ var faltas = 5;
 //         listahtml.innerHTML += "<li>" + funcionarios[f].nome + " não tem filhos </li>"
 //     }
 // } 
+
+//----------------------------------------------------------------------------------------------
+
+// // Aula 36 - BOM
+
+
+// window.onmousemove = function(e) {
+
+//     if (e.pageY < 5){
+//        alert('Não perca os descontos exclusivos');
+//     }
+// };
+
+
+//----------------------------------------------------------------------------------------------
+
+// // Aula 37 - BOM Local Storage
+
+//window.localStorage.setItem('nome', 'João');
+
+//console.log(localStorage['nome']);
+
+//localStorage.removeItem('nome');
+
+// document.getElementById("enviar-nome").onclick = function (){
+
+//     //Guardar o nome digitado em localstorage
+//     var nomeUser = document.getElementById("nome-usuario").value;
+//     window.localStorage.setItem('nome', nomeUser);
+//     console.log(localStorage['nome']);
+//     alert("Nome Preenchido com sucesso");
+
+//     //esconder o formulario
+//     document.getElementById("name-field").style.display = "none";
+     
+//     //Mostrar o nome de boas vindas
+//     document.getElementById("welcome-text").innerHTML = "Ola " + nomeUser + ", tudo bem?";
+//     document.getElementById("not-me").innerHTML = "Não é " + nomeUser;
+//     document.getElementById("welcome-area").style.display = "initial";
+
+// }
+
+// if (localStorage.nome){
+//     //esconder o formulario
+//     document.getElementById("name-field").style.display = "none";
+     
+//     //Mostrar o nome de boas vindas
+//     document.getElementById("welcome-text").innerHTML = "Ola " + localStorage.nome + ", tudo bem?";
+//     document.getElementById("not-me").innerHTML = "Não é " + localStorage.nome;
+//     document.getElementById("welcome-area").style.display = "initial";
+
+// }
+
+// document.getElementById("not-me").onclick = function (){
+
+//     //remove localstorage
+//     localStorage.removeItem('nome');
+//     document.getElementById("welcome-area").style.display = "none";
+//     document.getElementById("name-field").style.display = "initial";
+
+// }
+
+
+//----------------------------------------------------------------------------------------------
+
+// // Aula 38 - data e hora
+
+// var data_aleatoria = new Date(2021,8,7 ,15,05,06);
+// var data_hoje = new Date();
+
+// var data_nascimento = new Date('1998-4-27');
+// var ano_nascimento = new Date(data_nascimento).getFullYear()
+// var ano_atual = new Date().getFullYear();
+// var idade = ano_atual - ano_nascimento;
+
+// console.log(idade);
+
+// var data = new Date()
+
+// console.log(data.getTime());
+
+// console.log(data.getTime() / 31.530000000);
+
+// var data_envio = new Date(2018, 2, 20);
+
+// var data_entrega = new Date(2018, 3, 06)
+
+// var dias_entrega = data_entrega.getTime() - data_envio.getTime()
+
+// console.log(dias_entrega / 86400000);
+
+
+//----------------------------------------------------------------------------------------------
+
+// // Aula 39 - Metodos de tempo 
+
+// console.log('Mensagem 1');
+
+// window.setTimeout(function(){
+//     console.log('mensagem 2')
+// },3000)
+
+
+var spiner  = document.getElementById("spinner-loader")
+
+
+document.getElementById("mostrar-loader").onclick = function() {
+    spiner.style.display = "initial"
+    window.setTimeout(function(){
+        spiner.style.display = "none"
+    },5000)
+}
+
 
