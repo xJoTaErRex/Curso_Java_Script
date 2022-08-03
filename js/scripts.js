@@ -11,7 +11,7 @@
 //----------------------------------------------------------------------------------------------
 
 
-//Aula 3 - Variaveis
+// Aula 3 - Variaveis
 
 // var latitude = 40.87663;
 // var longitude = -8.0873;
@@ -23,7 +23,7 @@
 //----------------------------------------------------------------------------------------------
 
 
-//Aula 4 - String
+// Aula 4 - String
 
 // var nome = "João";
 // var sobrenome = "Gomes";
@@ -45,7 +45,8 @@
 
 //----------------------------------------------------------------------------------------------
 
-// // Aula 5 - Numeros
+
+//  Aula 5 - Numeros
 
 // var num1 = 20;
 // var num2 = 3;
@@ -91,7 +92,8 @@
 
 //----------------------------------------------------------------------------------------------
 
-// // Aula 6 - Boolean
+
+//  Aula 6 - Boolean
 // var idade = 65
 // var teste = 59 == idade;
 
@@ -107,7 +109,9 @@
 
 //----------------------------------------------------------------------------------------------
 
-// // Aula 7 - Null undefined
+
+
+//  Aula 7 - Null undefined
 
 // var undf;
 
@@ -132,7 +136,8 @@
 
 //----------------------------------------------------------------------------------------------
 
-// // Aula 11 - DOM
+
+//  Aula 11 - DOM
 
 // var conteudo_caixa_azul = document.getElementById("caixa_azul").innerHTML;
 
@@ -147,7 +152,7 @@
 //----------------------------------------------------------------------------------------------
 
 
-// // Aula 12 - Funções
+//  Aula 12 - Funções
 
 // function soma_numeros_estatica() {  
 //     var a = 10;
@@ -191,7 +196,9 @@
 
 //----------------------------------------------------------------------------------------------
 
-// // Aula 13 - Arrays
+
+
+//  Aula 13 - Arrays
 
 // var alunos = ["João", "Maria", "José"];
 
@@ -243,7 +250,9 @@
 
 //----------------------------------------------------------------------------------------------
 
-// // Aula 14 - Objetos
+
+
+//  Aula 14 - Objetos
 
 // var funcionario = {
 //     'nome' : 'Pedro Souza Gomes',
@@ -296,7 +305,9 @@
 
 //----------------------------------------------------------------------------------------------
 
-// // Aula 15 - Metodo de Objetos
+
+
+// Aula 15 - Metodo de Objetos
 
 // var aluno = {
 //     'nome': 'Maria',
@@ -323,7 +334,9 @@
 
 //----------------------------------------------------------------------------------------------
 
-// // Aula 19 - Eventos
+
+
+//  Aula 19 - Eventos
 
 // document.getElementById("click-me").onclick = function () {
 //     alert("Você clicou no botão");
@@ -355,14 +368,21 @@
 
 //----------------------------------------------------------------------------------------------
 
-// // Aula 20 - Manipulação do CSS
+
+
+//  Aula 20 - Manipulação do CSS
 
 // document.getElementById("botao_cor").onclick = function (){
 //     this.style['background-color'] = "blue";
 //     document.getElementById("botao_cor").style.transform = "translateX(100PX)";
 // }
 
+
+
+
 //----------------------------------------------------------------------------------------------
+
+
 
 
 // Aula 21 - Outros métodos getElement 
@@ -381,10 +401,9 @@
 
 
 
-
-
-
 //----------------------------------------------------------------------------------------------
+
+
 
 
 // Aula 22 - Loops for/in
@@ -429,14 +448,17 @@
 
 //----------------------------------------------------------------------------------------------
 
-// // Aula 23 - Loops While e Do/While
+
+
+
+//  Aula 23 - Loops While e Do/While
 
 // var count = 0;
 
-// // while (count < 5) {
-// //     console.log(count);
-// //     count++
-// // }
+// while (count < 5) {
+//     console.log(count);
+//     count++
+// }
 
 // var tag_elementos = document.getElementsByClassName("exemplo");
 
@@ -455,7 +477,9 @@
 
 //----------------------------------------------------------------------------------------------
 
-// // Aula 24 - If, elseif, else
+
+
+// Aula 24 - If, elseif, else
 
 // var idade = 17;
 
@@ -495,23 +519,28 @@
 // }
 
 
+
+
 //----------------------------------------------------------------------------------------------
 
-// // Aula 25 - Alinhamento de Loops e Condicionais (neting);
+
+
+
+//  Aula 25 - Alinhamento de Loops e Condicionais (neting);
 
 // var socio = false;
 // var idade = 17;
 
-// // if (socio == true || idade >= 65){
-// //     console.log("O ingresso é gratis")
-// // }else{
-// //     if (idade < 18){
-// //         console.log("Preço a pagar = R$ 6,00");
-// //     }
-// //     else{
-// //         console.log("Preço a pagar = R$ 12,00");
-// //     }
-// // }
+// if (socio == true || idade >= 65){
+//     console.log("O ingresso é gratis")
+// }else{
+//     if (idade < 18){
+//         console.log("Preço a pagar = R$ 6,00");
+//     }
+//     else{
+//         console.log("Preço a pagar = R$ 12,00");
+//     }
+// }
 
 
 // var funcionarios = [
@@ -565,9 +594,13 @@
 //     }
 // } 
 
+
+
 //----------------------------------------------------------------------------------------------
 
-// // Aula 36 - BOM
+
+
+// Aula 36 - BOM
 
 
 // window.onmousemove = function(e) {
@@ -578,9 +611,13 @@
 // };
 
 
+
+
 //----------------------------------------------------------------------------------------------
 
-// // Aula 37 - BOM Local Storage
+
+
+// Aula 37 - BOM Local Storage
 
 //window.localStorage.setItem('nome', 'João');
 
@@ -627,9 +664,13 @@
 // }
 
 
+
+
 //----------------------------------------------------------------------------------------------
 
-// // Aula 38 - data e hora
+
+
+//  Aula 38 - data e hora
 
 // var data_aleatoria = new Date(2021,8,7 ,15,05,06);
 // var data_hoje = new Date();
@@ -656,9 +697,13 @@
 // console.log(dias_entrega / 86400000);
 
 
+
+
 //----------------------------------------------------------------------------------------------
 
-// // Aula 39 - Metodos de tempo 
+
+
+//  Aula 39 - Metodos de tempo 
 
 // console.log('Mensagem 1');
 
@@ -706,7 +751,9 @@
 
 //----------------------------------------------------------------------------------------------
 
-// // // Aula 41 - Comando Switch
+
+
+//  Aula 41 - Comando Switch
 
 // function valor_pedagios(tipo) {
 
@@ -730,3 +777,136 @@
 // }
 
 // console.log(valor_pedagios("4"));
+
+
+
+
+//----------------------------------------------------------------------------------------------
+
+
+//  Aula 42  Break e continue
+
+// var x = 0;
+
+// while (x < 10) {
+//     console.log(x)
+//     x++;
+//     if(x == 5){
+//         break;
+//     }
+// }
+
+// var lista = [1,5,9,33,56,89,100,122,145,189,190,199,205,290];
+
+// for (let a = 0; a < lista.length; a++) {
+//     if(lista[a] == 33){
+//         console.log("Valor encontrado");
+//         break
+//     }
+//     console.log('Tentativa '+a);
+// }
+
+// var num = 0;
+// while (num < 20){
+//     num++
+//     if(num % 2 == 0){
+//         continue
+//     }  
+//     console.log(num);  
+// }
+
+
+//----------------------------------------------------------------------------------------------
+
+
+//  Aula 43 - Fomularios
+
+//Select Box
+// document.getElementById('mostrar_opcao').onclick = function(){
+//     // var campo_select = document.getElementById('options');
+//     // var indice_selecionado = campo_select.options.selectedIndex;
+//     // var valor_selecionado = campo_select.options[indice_selecionado].innerHTML;
+//     // document.getElementById('opcao_selecionada').innerHTML = valor_selecionado;
+    
+//     var valor_selecionado = document.getElementById('options').value;
+//     document.getElementById('opcao_selecionada').innerHTML = valor_selecionado;
+// }
+
+
+//Radio Buttons
+// document.getElementById('mostrar_radio').onclick = function(){
+//    var elementos = document.getElementsByName('genero');
+//    var radio_selected;
+   
+//    for (let index = 0; index < elementos.length; index++) {
+//       if(elementos[index].checked){
+//         radio_selected = elementos[index].value
+//         break
+//       }
+//    }
+
+//    document.getElementById('radio_selecionado').innerHTML = radio_selected;
+// }
+
+
+//Check Boxes
+// document.getElementById('mostrar_check').onclick = function(){
+
+//    var check = document.getElementsByName('interesse');
+//    var check_selected;
+
+//    document.getElementById('check_selecionado').innerHTML = "";
+
+//    for (let index = 0; index < check.length; index++) {
+//       if(check[index].checked){
+
+//         document.getElementById('check_selecionado').innerHTML += '<li>' + check[index].value + '</li>'
+
+//       }
+//    }
+//  }
+
+//Date
+// document.getElementById('mostrar_data').onclick = function(){
+   
+//   var data_select = document.getElementById("data_evento").value 
+//   var data_completa = new Date(data_select);
+//   document.getElementById("data_selecionada").innerHTML = data_completa;
+
+//  }
+
+
+//----------------------------------------------------------------------------------------------
+
+
+//  Aula 44 - Onchange
+
+
+// document.getElementById('escolaridade').onchange = function(){
+   
+//     var campo_select = document.getElementById('escolaridade');
+//     var indice_selecionado = campo_select.options.selectedIndex;
+//     var valor_selecionado = campo_select.options[indice_selecionado].innerHTML;
+//     document.getElementById('escolaridade_selecionada').innerHTML = valor_selecionado;
+
+//  }
+
+var check = document.getElementsByName('lanche');
+
+for (let index = 0; index < check.length; index++) {
+    
+
+    check[index].onchange = function(){
+
+        document.getElementById('check_selecionado').innerHTML = "";
+        
+
+        for (let a = 0; a < check.length; a++) {
+            if(check[a].checked){
+
+                document.getElementById('check_selecionado').innerHTML += '<li>' + check[index].value + '</li>'
+        
+            }   
+        }
+    } 
+}
